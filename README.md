@@ -22,6 +22,6 @@ You can play the game online [here](https://zackfrankline.github.io/Simon-Game/)
 To play the game locally, simply download the repository and open the `index.html` file in your web browser.
 
 ```sh
-git clone https://github.com/your-username/memory-sequence-game.git
-cd memory-sequence-game
+git clone https://github.com/zackfrankline/Simon-Game.git
+cd Simon-Game
 open index.html
