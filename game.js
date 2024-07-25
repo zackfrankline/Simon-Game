@@ -69,7 +69,7 @@ function animatePress(currentColour) {
 
 }
 
-function checkAnswer(currentLevel) {
+function checkAnswer(currentLevel) {  
 
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
 
@@ -85,12 +85,8 @@ function checkAnswer(currentLevel) {
     setTimeout(function() {
       $("body").removeClass("game-over");
     }, 200);
-
+    setHighScore(gamePattern.length - 1);
     startOver();
-
-
-
-
   }
 }
 
@@ -100,4 +96,12 @@ function startOver(){
   level = 0;
   userClickedPattern = [];
   gamePattern = [];
+}
+
+function setHighScore(level){
+  previous_score = $("#high-score").html();
+  
+  if(level > previous_score){
+    $("#high-score").html(level);
+  }  
 }
