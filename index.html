@@ -10,30 +10,57 @@
 
 <body>
   <h1 id="level-title">Press A Key to Start</h1>
-  <div class="container">
-    <div lass="row">
-
-      <div type="button" id="green" class="btn green">
-
-      </div>
-
-      <div type="button" id="red" class="btn red">
-
+  <div class="middle-container">
+    <div class="instructions-container">
+      <h2 class="instruction-title">Instructions</h2>
+      <div class="instructions">
+        <ul>
+          <li class="instruction-point">Press any key on your keyboard to begin the game.</li>
+          <li class="instruction-point">One of the four buttons will glow briefly. Remember the sequence.</li>
+          <li class="instruction-point">Click the button that glowed first.</li>
+          <li class="instruction-point">After that, a new button will glow, so click the buttons in the order they
+            glowed.</li>
+          <li class="instruction-point">The sequence will get longer each round.</li>
+          <li class="instruction-point">You must remember and repeat the entire sequence correctly.</li>
+          <li class="instruction-point">If you click the wrong button, the game ends.</li>
+          <li class="instruction-point">Try to beat your previous score!</li>
+          <li class="instruction-point">Enjoy testing your memory and see how long you can keep up!</li>
+        </ul>
       </div>
     </div>
+    <div class="buttons-container">
+      <div class="row">
 
-    <div class="row">
+        <div type="button" id="green" class="btn green">
 
-      <div type="button" id="yellow" class="btn yellow">
+        </div>
+
+        <div type="button" id="red" class="btn red">
+
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div type="button" id="yellow" class="btn yellow">
+
+        </div>
+        <div type="button" id="blue" class="btn blue">
+
+        </div>
 
       </div>
-      <div type="button" id="blue" class="btn blue">
 
-      </div>
+    </div>
+    <div class="high-score-container">
+      <h2 class="high-score-title">High Score : </h2>
+      <p id="high-score">0</p>
+
 
     </div>
 
   </div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 

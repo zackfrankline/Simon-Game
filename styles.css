@@ -6,15 +6,71 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.instructions-container {
+  display: block;
+  width: 30%;
+
+  margin: auto;
+}
+
+.instruction-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  5%;
+  color: #FEF2BF;
+  text-decoration: underline;
+}
+
+.instructions {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
   margin:  5%;
   color: #FEF2BF;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
+.instruction-point {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  6%;
+  color: #FEF2BF;
+}
 
+.buttons-container {
+  display: block;
+  width: 40%;
+  /* margin: auto; */
+
+}
+
+.high-score-container {
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.high-score-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+#high-score {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #FEF2BF;
 }
 
 .btn {
